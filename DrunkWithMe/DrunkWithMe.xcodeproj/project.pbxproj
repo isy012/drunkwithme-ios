@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB6E67A518B9455F00B4068C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6E67A418B9455F00B4068C /* Foundation.framework */; };
+		BB6E67A718B9455F00B4068C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6E67A618B9455F00B4068C /* CoreGraphics.framework */; };
+		BB6E67A918B9455F00B4068C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6E67A818B9455F00B4068C /* UIKit.framework */; };
+		BB6E67AF18B9455F00B4068C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB6E67AD18B9455F00B4068C /* InfoPlist.strings */; };
+		BB6E67B118B9455F00B4068C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E67B018B9455F00B4068C /* main.m */; };
+		BB6E67B518B9455F00B4068C /* DWMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E67B418B9455F00B4068C /* DWMAppDelegate.m */; };
+		BB6E67B818B9455F00B4068C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB6E67B618B9455F00B4068C /* Main.storyboard */; };
+		BB6E67BB18B9455F00B4068C /* DWMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E67BA18B9455F00B4068C /* DWMViewController.m */; };
+		BB6E67BD18B9455F00B4068C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB6E67BC18B9455F00B4068C /* Images.xcassets */; };
+		BB6E67C418B9455F00B4068C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6E67C318B9455F00B4068C /* XCTest.framework */; };
+		BB6E67C518B9455F00B4068C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6E67A418B9455F00B4068C /* Foundation.framework */; };
+		BB6E67C618B9455F00B4068C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB6E67A818B9455F00B4068C /* UIKit.framework */; };
+		BB6E67CE18B9455F00B4068C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB6E67CC18B9455F00B4068C /* InfoPlist.strings */; };
+		BB6E67D018B9455F00B4068C /* DrunkWithMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6E67CF18B9455F00B4068C /* DrunkWithMeTests.m */; };
+		BB8B0BEF18B9474E003A8552 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0BEE18B9474E003A8552 /* Parse.framework */; };
+		BB8B0BF118B94763003A8552 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0BF018B94763003A8552 /* AudioToolbox.framework */; };
+		BB8B0BF318B94768003A8552 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0BF218B94768003A8552 /* CFNetwork.framework */; };
+		BB8B0BF518B94772003A8552 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0BF418B94772003A8552 /* CoreLocation.framework */; };
+		BB8B0BF718B94777003A8552 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0BF618B94777003A8552 /* libz.dylib */; };
+		BB8B0BF918B9477D003A8552 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0BF818B9477D003A8552 /* MobileCoreServices.framework */; };
+		BB8B0BFB18B94781003A8552 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0BFA18B94781003A8552 /* QuartzCore.framework */; };
+		BB8B0BFD18B94786003A8552 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0BFC18B94786003A8552 /* Security.framework */; };
+		BB8B0BFF18B9478A003A8552 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0BFE18B9478A003A8552 /* StoreKit.framework */; };
+		BB8B0C0118B9478F003A8552 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0C0018B9478F003A8552 /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB6E67C718B9455F00B4068C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB6E679918B9455F00B4068C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB6E67A018B9455F00B4068C;
+			remoteInfo = DrunkWithMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB6E67A118B9455F00B4068C /* DrunkWithMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrunkWithMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6E67A418B9455F00B4068C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB6E67A618B9455F00B4068C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB6E67A818B9455F00B4068C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB6E67AC18B9455F00B4068C /* DrunkWithMe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrunkWithMe-Info.plist"; sourceTree = "<group>"; };
+		BB6E67AE18B9455F00B4068C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB6E67B018B9455F00B4068C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB6E67B218B9455F00B4068C /* DrunkWithMe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrunkWithMe-Prefix.pch"; sourceTree = "<group>"; };
+		BB6E67B318B9455F00B4068C /* DWMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWMAppDelegate.h; sourceTree = "<group>"; };
+		BB6E67B418B9455F00B4068C /* DWMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWMAppDelegate.m; sourceTree = "<group>"; };
+		BB6E67B718B9455F00B4068C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB6E67B918B9455F00B4068C /* DWMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWMViewController.h; sourceTree = "<group>"; };
+		BB6E67BA18B9455F00B4068C /* DWMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWMViewController.m; sourceTree = "<group>"; };
+		BB6E67BC18B9455F00B4068C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB6E67C218B9455F00B4068C /* DrunkWithMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrunkWithMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB6E67C318B9455F00B4068C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BB6E67CB18B9455F00B4068C /* DrunkWithMeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DrunkWithMeTests-Info.plist"; sourceTree = "<group>"; };
+		BB6E67CD18B9455F00B4068C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB6E67CF18B9455F00B4068C /* DrunkWithMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrunkWithMeTests.m; sourceTree = "<group>"; };
+		BB8B0BEE18B9474E003A8552 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		BB8B0BF018B94763003A8552 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		BB8B0BF218B94768003A8552 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		BB8B0BF418B94772003A8552 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BB8B0BF618B94777003A8552 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		BB8B0BF818B9477D003A8552 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BB8B0BFA18B94781003A8552 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BB8B0BFC18B94786003A8552 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BB8B0BFE18B9478A003A8552 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BB8B0C0018B9478F003A8552 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB6E679E18B9455F00B4068C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8B0C0118B9478F003A8552 /* SystemConfiguration.framework in Frameworks */,
+				BB8B0BFF18B9478A003A8552 /* StoreKit.framework in Frameworks */,
+				BB8B0BFD18B94786003A8552 /* Security.framework in Frameworks */,
+				BB8B0BFB18B94781003A8552 /* QuartzCore.framework in Frameworks */,
+				BB8B0BF918B9477D003A8552 /* MobileCoreServices.framework in Frameworks */,
+				BB8B0BF718B94777003A8552 /* libz.dylib in Frameworks */,
+				BB8B0BF518B94772003A8552 /* CoreLocation.framework in Frameworks */,
+				BB6E67A718B9455F00B4068C /* CoreGraphics.framework in Frameworks */,
+				BB8B0BF318B94768003A8552 /* CFNetwork.framework in Frameworks */,
+				BB8B0BF118B94763003A8552 /* AudioToolbox.framework in Frameworks */,
+				BB6E67A918B9455F00B4068C /* UIKit.framework in Frameworks */,
+				BB8B0BEF18B9474E003A8552 /* Parse.framework in Frameworks */,
+				BB6E67A518B9455F00B4068C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6E67BF18B9455F00B4068C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6E67C418B9455F00B4068C /* XCTest.framework in Frameworks */,
+				BB6E67C618B9455F00B4068C /* UIKit.framework in Frameworks */,
+				BB6E67C518B9455F00B4068C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB6E679818B9455F00B4068C = {
+			isa = PBXGroup;
+			children = (
+				BB6E67AA18B9455F00B4068C /* DrunkWithMe */,
+				BB6E67C918B9455F00B4068C /* DrunkWithMeTests */,
+				BB6E67A318B9455F00B4068C /* Frameworks */,
+				BB6E67A218B9455F00B4068C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB6E67A218B9455F00B4068C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB6E67A118B9455F00B4068C /* DrunkWithMe.app */,
+				BB6E67C218B9455F00B4068C /* DrunkWithMeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB6E67A318B9455F00B4068C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB8B0C0018B9478F003A8552 /* SystemConfiguration.framework */,
+				BB8B0BFE18B9478A003A8552 /* StoreKit.framework */,
+				BB8B0BFC18B94786003A8552 /* Security.framework */,
+				BB8B0BFA18B94781003A8552 /* QuartzCore.framework */,
+				BB8B0BF818B9477D003A8552 /* MobileCoreServices.framework */,
+				BB8B0BF618B94777003A8552 /* libz.dylib */,
+				BB8B0BF418B94772003A8552 /* CoreLocation.framework */,
+				BB8B0BF218B94768003A8552 /* CFNetwork.framework */,
+				BB8B0BF018B94763003A8552 /* AudioToolbox.framework */,
+				BB8B0BEE18B9474E003A8552 /* Parse.framework */,
+				BB6E67A418B9455F00B4068C /* Foundation.framework */,
+				BB6E67A618B9455F00B4068C /* CoreGraphics.framework */,
+				BB6E67A818B9455F00B4068C /* UIKit.framework */,
+				BB6E67C318B9455F00B4068C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB6E67AA18B9455F00B4068C /* DrunkWithMe */ = {
+			isa = PBXGroup;
+			children = (
+				BB6E67B318B9455F00B4068C /* DWMAppDelegate.h */,
+				BB6E67B418B9455F00B4068C /* DWMAppDelegate.m */,
+				BB6E67B618B9455F00B4068C /* Main.storyboard */,
+				BB6E67B918B9455F00B4068C /* DWMViewController.h */,
+				BB6E67BA18B9455F00B4068C /* DWMViewController.m */,
+				BB6E67BC18B9455F00B4068C /* Images.xcassets */,
+				BB6E67AB18B9455F00B4068C /* Supporting Files */,
+			);
+			path = DrunkWithMe;
+			sourceTree = "<group>";
+		};
+		BB6E67AB18B9455F00B4068C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB6E67AC18B9455F00B4068C /* DrunkWithMe-Info.plist */,
+				BB6E67AD18B9455F00B4068C /* InfoPlist.strings */,
+				BB6E67B018B9455F00B4068C /* main.m */,
+				BB6E67B218B9455F00B4068C /* DrunkWithMe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB6E67C918B9455F00B4068C /* DrunkWithMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB6E67CF18B9455F00B4068C /* DrunkWithMeTests.m */,
+				BB6E67CA18B9455F00B4068C /* Supporting Files */,
+			);
+			path = DrunkWithMeTests;
+			sourceTree = "<group>";
+		};
+		BB6E67CA18B9455F00B4068C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB6E67CB18B9455F00B4068C /* DrunkWithMeTests-Info.plist */,
+				BB6E67CC18B9455F00B4068C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB6E67A018B9455F00B4068C /* DrunkWithMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6E67D318B9455F00B4068C /* Build configuration list for PBXNativeTarget "DrunkWithMe" */;
+			buildPhases = (
+				BB6E679D18B9455F00B4068C /* Sources */,
+				BB6E679E18B9455F00B4068C /* Frameworks */,
+				BB6E679F18B9455F00B4068C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrunkWithMe;
+			productName = DrunkWithMe;
+			productReference = BB6E67A118B9455F00B4068C /* DrunkWithMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB6E67C118B9455F00B4068C /* DrunkWithMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6E67D618B9455F00B4068C /* Build configuration list for PBXNativeTarget "DrunkWithMeTests" */;
+			buildPhases = (
+				BB6E67BE18B9455F00B4068C /* Sources */,
+				BB6E67BF18B9455F00B4068C /* Frameworks */,
+				BB6E67C018B9455F00B4068C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB6E67C818B9455F00B4068C /* PBXTargetDependency */,
+			);
+			name = DrunkWithMeTests;
+			productName = DrunkWithMeTests;
+			productReference = BB6E67C218B9455F00B4068C /* DrunkWithMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB6E679918B9455F00B4068C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DWM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Obsidian Mobile";
+				TargetAttributes = {
+					BB6E67C118B9455F00B4068C = {
+						TestTargetID = BB6E67A018B9455F00B4068C;
+					};
+				};
+			};
+			buildConfigurationList = BB6E679C18B9455F00B4068C /* Build configuration list for PBXProject "DrunkWithMe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB6E679818B9455F00B4068C;
+			productRefGroup = BB6E67A218B9455F00B4068C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB6E67A018B9455F00B4068C /* DrunkWithMe */,
+				BB6E67C118B9455F00B4068C /* DrunkWithMeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB6E679F18B9455F00B4068C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6E67BD18B9455F00B4068C /* Images.xcassets in Resources */,
+				BB6E67AF18B9455F00B4068C /* InfoPlist.strings in Resources */,
+				BB6E67B818B9455F00B4068C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6E67C018B9455F00B4068C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6E67CE18B9455F00B4068C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB6E679D18B9455F00B4068C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6E67B118B9455F00B4068C /* main.m in Sources */,
+				BB6E67B518B9455F00B4068C /* DWMAppDelegate.m in Sources */,
+				BB6E67BB18B9455F00B4068C /* DWMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB6E67BE18B9455F00B4068C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB6E67D018B9455F00B4068C /* DrunkWithMeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB6E67C818B9455F00B4068C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB6E67A018B9455F00B4068C /* DrunkWithMe */;
+			targetProxy = BB6E67C718B9455F00B4068C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB6E67AD18B9455F00B4068C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB6E67AE18B9455F00B4068C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB6E67B618B9455F00B4068C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB6E67B718B9455F00B4068C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB6E67CC18B9455F00B4068C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB6E67CD18B9455F00B4068C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB6E67D118B9455F00B4068C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB6E67D218B9455F00B4068C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB6E67D418B9455F00B4068C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/franklinho/Workspace/drunkwithme-ios/DrunkWithMe",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrunkWithMe/DrunkWithMe-Prefix.pch";
+				INFOPLIST_FILE = "DrunkWithMe/DrunkWithMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB6E67D518B9455F00B4068C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/franklinho/Workspace/drunkwithme-ios/DrunkWithMe",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrunkWithMe/DrunkWithMe-Prefix.pch";
+				INFOPLIST_FILE = "DrunkWithMe/DrunkWithMe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BB6E67D718B9455F00B4068C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrunkWithMe.app/DrunkWithMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrunkWithMe/DrunkWithMe-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DrunkWithMeTests/DrunkWithMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BB6E67D818B9455F00B4068C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DrunkWithMe.app/DrunkWithMe";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrunkWithMe/DrunkWithMe-Prefix.pch";
+				INFOPLIST_FILE = "DrunkWithMeTests/DrunkWithMeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB6E679C18B9455F00B4068C /* Build configuration list for PBXProject "DrunkWithMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6E67D118B9455F00B4068C /* Debug */,
+				BB6E67D218B9455F00B4068C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6E67D318B9455F00B4068C /* Build configuration list for PBXNativeTarget "DrunkWithMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6E67D418B9455F00B4068C /* Debug */,
+				BB6E67D518B9455F00B4068C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6E67D618B9455F00B4068C /* Build configuration list for PBXNativeTarget "DrunkWithMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB6E67D718B9455F00B4068C /* Debug */,
+				BB6E67D818B9455F00B4068C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB6E679918B9455F00B4068C /* Project object */;
+}
