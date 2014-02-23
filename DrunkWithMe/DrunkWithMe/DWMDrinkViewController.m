@@ -10,6 +10,8 @@
 
 @interface DWMDrinkViewController ()
 
+- (IBAction)logDrink:(id)sender;
+
 @end
 
 @implementation DWMDrinkViewController
