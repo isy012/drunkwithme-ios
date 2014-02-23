@@ -10,6 +10,7 @@
 #import "DWMLogInViewController.h"
 #import "DWMSignUpViewController.h"
 
+
 @interface DWMViewController ()
 
 @end
@@ -31,11 +32,11 @@
 //        }
 //    }];
     
-//    [PFGeoPoint geoPointForCurrentLocationInBackground:^(PFGeoPoint *geoPoint, NSError *error) {
-//        if (!error) {
-//            // do something with the new geoPoint
-//        }
-//    }];
+    [PFGeoPoint geoPointForCurrentLocationInBackground:^(PFGeoPoint *geoPoint, NSError *error) {
+        if (!error) {
+            // do something with the new geoPoint
+        }
+    }];
     
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.

@@ -10,6 +10,7 @@
 #import <Parse/Parse.h>
 #import "DWMViewController.h"
 #import "DWMSignUpViewController.h"
+#import "DWMLogInViewController.h"
 
 @implementation DWMAppDelegate
 
@@ -27,12 +28,12 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    DWMViewController *dwmvc = [[DWMViewController alloc] init];
+    DWMLogInViewController *livc = [[DWMLogInViewController alloc] init];
     
     DWMSignUpViewController *suvc = [[DWMSignUpViewController alloc] init];
     
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    [tabBarController setViewControllers:@[dwmvc,suvc]];
+    [tabBarController setViewControllers:@[livc,suvc]];
 
     [[self window] setRootViewController:tabBarController];
     
