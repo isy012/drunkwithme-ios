@@ -52,11 +52,11 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
-    if ([PFUser currentUser]){
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Logged In!" message:@"Logged in!" delegate:nil cancelButtonTitle:@"Log me out" otherButtonTitles:nil, nil];
-        [alert show];
-        [PFUser logOut];
-    }
+//    if ([PFUser currentUser]){
+//        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Logged In!" message:@"Logged in!" delegate:nil cancelButtonTitle:@"Log me out" otherButtonTitles:nil, nil];
+//        [alert show];
+//        [PFUser logOut];
+//    }
     
     if (![PFUser currentUser]) { // No user logged in
         // Create the log in view controller

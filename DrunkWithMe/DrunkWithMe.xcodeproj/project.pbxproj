@@ -36,6 +36,10 @@
 		BB8B0C0B18B96A85003A8552 /* LoginFieldBG.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8B0C0918B96A85003A8552 /* LoginFieldBG.png */; };
 		BB8B0C0C18B96A85003A8552 /* SignUpFieldBG.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8B0C0A18B96A85003A8552 /* SignUpFieldBG.png */; };
 		BB8B0C0F18B97B5F003A8552 /* DWMSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8B0C0E18B97B5F003A8552 /* DWMSignUpViewController.m */; };
+		BB8B0C1418B981BD003A8552 /* carbomb.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8B0C1018B981BD003A8552 /* carbomb.png */; };
+		BB8B0C1518B981BD003A8552 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8B0C1118B981BD003A8552 /* map.png */; };
+		BB8B0C1618B981BD003A8552 /* rank.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8B0C1218B981BD003A8552 /* rank.png */; };
+		BB8B0C1718B981BD003A8552 /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8B0C1318B981BD003A8552 /* stats.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +90,10 @@
 		BB8B0C0A18B96A85003A8552 /* SignUpFieldBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SignUpFieldBG.png; sourceTree = "<group>"; };
 		BB8B0C0D18B97B5E003A8552 /* DWMSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMSignUpViewController.h; sourceTree = "<group>"; };
 		BB8B0C0E18B97B5F003A8552 /* DWMSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWMSignUpViewController.m; sourceTree = "<group>"; };
+		BB8B0C1018B981BD003A8552 /* carbomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carbomb.png; sourceTree = "<group>"; };
+		BB8B0C1118B981BD003A8552 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		BB8B0C1218B981BD003A8552 /* rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rank.png; sourceTree = "<group>"; };
+		BB8B0C1318B981BD003A8552 /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,7 +173,6 @@
 		BB6E67AA18B9455F00B4068C /* DrunkWithMe */ = {
 			isa = PBXGroup;
 			children = (
-				BB8B0C0818B96A6E003A8552 /* Assets */,
 				BB6E67B318B9455F00B4068C /* DWMAppDelegate.h */,
 				BB6E67B418B9455F00B4068C /* DWMAppDelegate.m */,
 				BB6E67B618B9455F00B4068C /* Main.storyboard */,
@@ -178,6 +185,7 @@
 				BB8B0C0518B96644003A8552 /* UIColor+PXExtensions.h */,
 				BB8B0C0618B96644003A8552 /* UIColor+PXExtensions.m */,
 				BB6E67BC18B9455F00B4068C /* Images.xcassets */,
+				BB8B0C0818B96A6E003A8552 /* Assets */,
 				BB6E67AB18B9455F00B4068C /* Supporting Files */,
 			);
 			path = DrunkWithMe;
@@ -215,6 +223,10 @@
 		BB8B0C0818B96A6E003A8552 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				BB8B0C1018B981BD003A8552 /* carbomb.png */,
+				BB8B0C1118B981BD003A8552 /* map.png */,
+				BB8B0C1218B981BD003A8552 /* rank.png */,
+				BB8B0C1318B981BD003A8552 /* stats.png */,
 				BB8B0C0918B96A85003A8552 /* LoginFieldBG.png */,
 				BB8B0C0A18B96A85003A8552 /* SignUpFieldBG.png */,
 			);
@@ -298,11 +310,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB8B0C1418B981BD003A8552 /* carbomb.png in Resources */,
+				BB8B0C1718B981BD003A8552 /* stats.png in Resources */,
 				BB6E67BD18B9455F00B4068C /* Images.xcassets in Resources */,
 				BB8B0C0B18B96A85003A8552 /* LoginFieldBG.png in Resources */,
 				BB6E67AF18B9455F00B4068C /* InfoPlist.strings in Resources */,
+				BB8B0C1518B981BD003A8552 /* map.png in Resources */,
 				BB6E67B818B9455F00B4068C /* Main.storyboard in Resources */,
 				BB8B0C0C18B96A85003A8552 /* SignUpFieldBG.png in Resources */,
+				BB8B0C1618B981BD003A8552 /* rank.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
