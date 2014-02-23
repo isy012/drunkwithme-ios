@@ -39,6 +39,8 @@
 		BB8B0C1518B981BD003A8552 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8B0C1118B981BD003A8552 /* map.png */; };
 		BB8B0C1618B981BD003A8552 /* rank.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8B0C1218B981BD003A8552 /* rank.png */; };
 		BB8B0C1718B981BD003A8552 /* stats.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8B0C1318B981BD003A8552 /* stats.png */; };
+		BBFC555D18B990200050F024 /* DWMDrinkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBFC555C18B990200050F024 /* DWMDrinkViewController.xib */; };
+		BBFC556018B990440050F024 /* DWMDrinkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFC555F18B990440050F024 /* DWMDrinkViewController.m */; };
 		D4A68C5418B94C3B00837366 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0BEE18B9474E003A8552 /* Parse.framework */; };
 		D4A68C5918B94D2500837366 /* DWMMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A68C5818B94D2500837366 /* DWMMapView.m */; };
 		D4A68C5E18B94F1000837366 /* DWMMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A68C5D18B94F1000837366 /* DWMMapViewController.m */; };
@@ -107,6 +109,9 @@
 		BB8B0C1118B981BD003A8552 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
 		BB8B0C1218B981BD003A8552 /* rank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rank.png; sourceTree = "<group>"; };
 		BB8B0C1318B981BD003A8552 /* stats.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stats.png; sourceTree = "<group>"; };
+		BBFC555C18B990200050F024 /* DWMDrinkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWMDrinkViewController.xib; sourceTree = "<group>"; };
+		BBFC555E18B990440050F024 /* DWMDrinkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMDrinkViewController.h; sourceTree = "<group>"; };
+		BBFC555F18B990440050F024 /* DWMDrinkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWMDrinkViewController.m; sourceTree = "<group>"; };
 		D4A68C5718B94D2500837366 /* DWMMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWMMapView.h; path = ../DWMMapView.h; sourceTree = "<group>"; };
 		D4A68C5818B94D2500837366 /* DWMMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWMMapView.m; path = ../DWMMapView.m; sourceTree = "<group>"; };
 		D4A68C5C18B94F1000837366 /* DWMMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWMMapViewController.h; path = ../DWMMapViewController.h; sourceTree = "<group>"; };
@@ -222,13 +227,16 @@
 		BB6E67AA18B9455F00B4068C /* DrunkWithMe */ = {
 			isa = PBXGroup;
 			children = (
+				BB6E67B318B9455F00B4068C /* DWMAppDelegate.h */,
+				BB6E67B418B9455F00B4068C /* DWMAppDelegate.m */,
 				D4A68C5818B94D2500837366 /* DWMMapView.m */,
 				D4A68C5718B94D2500837366 /* DWMMapView.h */,
 				D4A68C5C18B94F1000837366 /* DWMMapViewController.h */,
 				D4A68C5D18B94F1000837366 /* DWMMapViewController.m */,
-				BB6E67B318B9455F00B4068C /* DWMAppDelegate.h */,
-				BB6E67B418B9455F00B4068C /* DWMAppDelegate.m */,
 				BB6E67B618B9455F00B4068C /* Main.storyboard */,
+				BBFC555C18B990200050F024 /* DWMDrinkViewController.xib */,
+				BBFC555E18B990440050F024 /* DWMDrinkViewController.h */,
+				BBFC555F18B990440050F024 /* DWMDrinkViewController.m */,
 				BB6E67B918B9455F00B4068C /* DWMViewController.h */,
 				BB6E67BA18B9455F00B4068C /* DWMViewController.m */,
 				BB8B0C0218B96191003A8552 /* DWMLogInViewController.h */,
@@ -370,6 +378,7 @@
 				BB8B0C0B18B96A85003A8552 /* LoginFieldBG.png in Resources */,
 				BB6E67AF18B9455F00B4068C /* InfoPlist.strings in Resources */,
 				BB8B0C1518B981BD003A8552 /* map.png in Resources */,
+				BBFC555D18B990200050F024 /* DWMDrinkViewController.xib in Resources */,
 				BB6E67B818B9455F00B4068C /* Main.storyboard in Resources */,
 				BB8B0C0C18B96A85003A8552 /* SignUpFieldBG.png in Resources */,
 				BB8B0C1618B981BD003A8552 /* rank.png in Resources */,
@@ -397,6 +406,7 @@
 				BB6E67B118B9455F00B4068C /* main.m in Sources */,
 				BB8B0C0718B96644003A8552 /* UIColor+PXExtensions.m in Sources */,
 				BB6E67B518B9455F00B4068C /* DWMAppDelegate.m in Sources */,
+				BBFC556018B990440050F024 /* DWMDrinkViewController.m in Sources */,
 				BB6E67BB18B9455F00B4068C /* DWMViewController.m in Sources */,
 				BB8B0C0418B96191003A8552 /* DWMLogInViewController.m in Sources */,
 				BB8B0C0F18B97B5F003A8552 /* DWMSignUpViewController.m in Sources */,

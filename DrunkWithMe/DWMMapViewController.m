@@ -18,6 +18,8 @@
 
 - (void)loadView
 {
+    NSLog(@"Loading View");
+    
     CGRect frame = [[UIScreen mainScreen] bounds];
     
     DWMMapView *v = [[DWMMapView alloc] initWithFrame:frame];

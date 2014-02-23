@@ -12,6 +12,7 @@
 #import <Parse/Parse.h>
 #import "DWMMapViewController.h"
 #import "DWMLogInViewController.h"
+#import "DWMDrinkViewController.h"
 
 @implementation DWMAppDelegate
 
@@ -34,10 +35,10 @@
 
     DWMMapViewController *mvc = [[DWMMapViewController alloc] init];
     
-    DWMLogInViewController *livc = [[DWMLogInViewController alloc] init];
+    DWMDrinkViewController *dvc = [[DWMDrinkViewController alloc] init];
 
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    [tabBarController setViewControllers:@[mvc,livc]];
+    [tabBarController setViewControllers:@[mvc,dvc]];
 
     [[self window] setRootViewController:tabBarController];
 
