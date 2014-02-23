@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DWMViewController : UIViewController
+@interface DWMViewController : UIViewController <PFLogInViewControllerDelegate, PFSignUpViewControllerDelegate>
 
 @end

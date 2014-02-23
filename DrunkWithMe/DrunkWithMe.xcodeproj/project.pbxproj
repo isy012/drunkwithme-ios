@@ -31,6 +31,11 @@
 		BB8B0BFD18B94786003A8552 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0BFC18B94786003A8552 /* Security.framework */; };
 		BB8B0BFF18B9478A003A8552 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0BFE18B9478A003A8552 /* StoreKit.framework */; };
 		BB8B0C0118B9478F003A8552 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8B0C0018B9478F003A8552 /* SystemConfiguration.framework */; };
+		BB8B0C0418B96191003A8552 /* DWMLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8B0C0318B96191003A8552 /* DWMLogInViewController.m */; };
+		BB8B0C0718B96644003A8552 /* UIColor+PXExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8B0C0618B96644003A8552 /* UIColor+PXExtensions.m */; };
+		BB8B0C0B18B96A85003A8552 /* LoginFieldBG.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8B0C0918B96A85003A8552 /* LoginFieldBG.png */; };
+		BB8B0C0C18B96A85003A8552 /* SignUpFieldBG.png in Resources */ = {isa = PBXBuildFile; fileRef = BB8B0C0A18B96A85003A8552 /* SignUpFieldBG.png */; };
+		BB8B0C0F18B97B5F003A8552 /* DWMSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8B0C0E18B97B5F003A8552 /* DWMSignUpViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +78,14 @@
 		BB8B0BFC18B94786003A8552 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BB8B0BFE18B9478A003A8552 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		BB8B0C0018B9478F003A8552 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BB8B0C0218B96191003A8552 /* DWMLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMLogInViewController.h; sourceTree = "<group>"; };
+		BB8B0C0318B96191003A8552 /* DWMLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWMLogInViewController.m; sourceTree = "<group>"; };
+		BB8B0C0518B96644003A8552 /* UIColor+PXExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PXExtensions.h"; sourceTree = "<group>"; };
+		BB8B0C0618B96644003A8552 /* UIColor+PXExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PXExtensions.m"; sourceTree = "<group>"; };
+		BB8B0C0918B96A85003A8552 /* LoginFieldBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LoginFieldBG.png; sourceTree = "<group>"; };
+		BB8B0C0A18B96A85003A8552 /* SignUpFieldBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SignUpFieldBG.png; sourceTree = "<group>"; };
+		BB8B0C0D18B97B5E003A8552 /* DWMSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMSignUpViewController.h; sourceTree = "<group>"; };
+		BB8B0C0E18B97B5F003A8552 /* DWMSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWMSignUpViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,11 +165,18 @@
 		BB6E67AA18B9455F00B4068C /* DrunkWithMe */ = {
 			isa = PBXGroup;
 			children = (
+				BB8B0C0818B96A6E003A8552 /* Assets */,
 				BB6E67B318B9455F00B4068C /* DWMAppDelegate.h */,
 				BB6E67B418B9455F00B4068C /* DWMAppDelegate.m */,
 				BB6E67B618B9455F00B4068C /* Main.storyboard */,
 				BB6E67B918B9455F00B4068C /* DWMViewController.h */,
 				BB6E67BA18B9455F00B4068C /* DWMViewController.m */,
+				BB8B0C0218B96191003A8552 /* DWMLogInViewController.h */,
+				BB8B0C0318B96191003A8552 /* DWMLogInViewController.m */,
+				BB8B0C0D18B97B5E003A8552 /* DWMSignUpViewController.h */,
+				BB8B0C0E18B97B5F003A8552 /* DWMSignUpViewController.m */,
+				BB8B0C0518B96644003A8552 /* UIColor+PXExtensions.h */,
+				BB8B0C0618B96644003A8552 /* UIColor+PXExtensions.m */,
 				BB6E67BC18B9455F00B4068C /* Images.xcassets */,
 				BB6E67AB18B9455F00B4068C /* Supporting Files */,
 			);
@@ -190,6 +210,15 @@
 				BB6E67CC18B9455F00B4068C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB8B0C0818B96A6E003A8552 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BB8B0C0918B96A85003A8552 /* LoginFieldBG.png */,
+				BB8B0C0A18B96A85003A8552 /* SignUpFieldBG.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +299,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB6E67BD18B9455F00B4068C /* Images.xcassets in Resources */,
+				BB8B0C0B18B96A85003A8552 /* LoginFieldBG.png in Resources */,
 				BB6E67AF18B9455F00B4068C /* InfoPlist.strings in Resources */,
 				BB6E67B818B9455F00B4068C /* Main.storyboard in Resources */,
+				BB8B0C0C18B96A85003A8552 /* SignUpFieldBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,8 +322,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB6E67B118B9455F00B4068C /* main.m in Sources */,
+				BB8B0C0718B96644003A8552 /* UIColor+PXExtensions.m in Sources */,
 				BB6E67B518B9455F00B4068C /* DWMAppDelegate.m in Sources */,
 				BB6E67BB18B9455F00B4068C /* DWMViewController.m in Sources */,
+				BB8B0C0418B96191003A8552 /* DWMLogInViewController.m in Sources */,
+				BB8B0C0F18B97B5F003A8552 /* DWMSignUpViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
