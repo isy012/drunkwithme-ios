@@ -50,7 +50,6 @@
 		D4A68C6C18B9515E00837366 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A68C6B18B9515E00837366 /* libc++.dylib */; };
 		D4A68C6E18B9516E00837366 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A68C6D18B9516E00837366 /* libicucore.dylib */; };
 		D4A68C7018B9518000837366 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A68C6F18B9518000837366 /* OpenGLES.framework */; };
-		D4A68C7618B9643600837366 /* DWMMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D4A68C7518B9643600837366 /* DWMMapViewController.xib */; };
 		D4A68C7A18B96AD200837366 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A68C7918B96AD200837366 /* GoogleMaps.framework */; };
 		D4A68C7C18B96AF000837366 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D4A68C7B18B96AF000837366 /* GoogleMaps.bundle */; };
 		D4A68DC018B96D5800837366 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A68DBF18B96D5800837366 /* FacebookSDK.framework */; };
@@ -120,7 +119,6 @@
 		D4A68C6B18B9515E00837366 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		D4A68C6D18B9516E00837366 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		D4A68C6F18B9518000837366 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		D4A68C7518B9643600837366 /* DWMMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DWMMapViewController.xib; path = ../DWMMapViewController.xib; sourceTree = "<group>"; };
 		D4A68C7918B96AD200837366 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		D4A68C7B18B96AF000837366 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		D4A68DBF18B96D5800837366 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
@@ -224,11 +222,10 @@
 		BB6E67AA18B9455F00B4068C /* DrunkWithMe */ = {
 			isa = PBXGroup;
 			children = (
-				D4A68C7518B9643600837366 /* DWMMapViewController.xib */,
 				D4A68C5818B94D2500837366 /* DWMMapView.m */,
 				D4A68C5718B94D2500837366 /* DWMMapView.h */,
-				D4A68C5D18B94F1000837366 /* DWMMapViewController.m */,
 				D4A68C5C18B94F1000837366 /* DWMMapViewController.h */,
+				D4A68C5D18B94F1000837366 /* DWMMapViewController.m */,
 				BB6E67B318B9455F00B4068C /* DWMAppDelegate.h */,
 				BB6E67B418B9455F00B4068C /* DWMAppDelegate.m */,
 				BB6E67B618B9455F00B4068C /* Main.storyboard */,
@@ -376,7 +373,6 @@
 				BB6E67B818B9455F00B4068C /* Main.storyboard in Resources */,
 				BB8B0C0C18B96A85003A8552 /* SignUpFieldBG.png in Resources */,
 				BB8B0C1618B981BD003A8552 /* rank.png in Resources */,
-				D4A68C7618B9643600837366 /* DWMMapViewController.xib in Resources */,
 				BB6E67B818B9455F00B4068C /* Main.storyboard in Resources */,
 				D4A68C7C18B96AF000837366 /* GoogleMaps.bundle in Resources */,
 			);

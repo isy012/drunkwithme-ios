@@ -8,12 +8,22 @@
 
 #import "DWMMapViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
+#import "DWMMapView.h"
 
 @interface DWMMapViewController ()
 
 @end
 
 @implementation DWMMapViewController
+
+- (void)loadView
+{
+    CGRect frame = [[UIScreen mainScreen] bounds];
+    
+    DWMMapView *v = [[DWMMapView alloc] initWithFrame:frame];
+    
+    [self setView:v];
+}
 
 - (void)viewDidLoad
 {

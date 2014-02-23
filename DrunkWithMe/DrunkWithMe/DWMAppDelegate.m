@@ -10,8 +10,7 @@
 #import "DWMMapViewController.h"
 #import <GoogleMaps/GoogleMaps.h>
 #import <Parse/Parse.h>
-#import "DWMViewController.h"
-#import "DWMSignUpViewController.h"
+#import "DWMMapViewController.h"
 #import "DWMLogInViewController.h"
 
 @implementation DWMAppDelegate
@@ -28,15 +27,17 @@
 
     [PFTwitterUtils initializeWithConsumerKey:@"Grb8JD9JQ8bCAAaUoeOIg"
                                consumerSecret:@"O1Pj7V1GMKFRiZ1nIInkZ9zeRRtMU58M35419hhGl8"];
+    
+    [GMSServices provideAPIKey:@"AIzaSyDXbLTiAjkARVoImvIhrT665H1TocU7vEg"];
 
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
+    DWMMapViewController *mvc = [[DWMMapViewController alloc] init];
+    
     DWMLogInViewController *livc = [[DWMLogInViewController alloc] init];
 
-    DWMSignUpViewController *suvc = [[DWMSignUpViewController alloc] init];
-
     UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    [tabBarController setViewControllers:@[livc,suvc]];
+    [tabBarController setViewControllers:@[mvc,livc]];
 
     [[self window] setRootViewController:tabBarController];
 
